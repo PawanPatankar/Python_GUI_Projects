@@ -1,5 +1,7 @@
 from tkinter import *
 
+
+# functionality of this calculator is updated now
 def click(event):
     text=event.widget.cget("text")
     if text=="=":
